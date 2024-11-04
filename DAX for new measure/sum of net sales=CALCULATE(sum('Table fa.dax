@@ -1,0 +1,3 @@
+sum of net sales=CALCULATE(sum('Table facts'[Net sales]),
+all('DATE TABLE 1'),USERELATIONSHIP('DATE TABLE 2'[Date]),
+'Table Facts'[Date(dd/mm/yyyy)]))
