@@ -1,0 +1,2 @@
+Total Profit = CALCULATE(SUM('Table Facts'[Profit]),ALL('DATE TABLE 1'),
+USERELATIONSHIP('DATE TABLE 2'[Date],'Table Facts'[Date (dd/mm/yyyy)]))
